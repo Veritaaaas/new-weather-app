@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <link rel="stylesheet" href="../src/style.css" />
+        <title>Weather App</title>
+    </head>
+    <body>
+        <div class="current-weather">
+            <div class="input-bar">
+                <form id="searchForm">
+                    <input type="text" placeholder="Search" id="search"/>
+                </form> 
+                <div class="error">There's no match for that city!</div>
+            </div>
+            <div class="weather-data">
+                <div class="info">
+                    <h3></h3>
+                    <h1></h1>
+                </div>
+                <div class="details">
+                    <div class="temperature">
+                        <div class="temp-value"></div>
+                        <div class="temp-type"></div>
+                    </div>
+                    <div class="additional-info">
+                        <div class="feels-like">
+                            <div class="temp-feels-like"></div>
+                            <div class="temp-type-feels-like"></div>
+                        </div>
+                        <div class="humidity"></div>
+                        <div class="wind"></div>
+                    </div>
+                    <div class="forecast-option">
+                        <button id="forecast">See Forecast</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="forecast">
+            <div class="forecast-details">
+                <div class="forecast-header">Weekly Forecast</div>
+                <div class="forecast-data">
+                    
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>
