@@ -1,0 +1,23 @@
+{
+  "name": "new-weather-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "http://Veritaaaas.github.io/new-weather-app",
+  "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.1.1",
+    "webpack": "^5.90.3",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "css-loader": "^6.10.0",
+    "style-loader": "^3.3.4"
+  }
+}
